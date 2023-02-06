@@ -10,6 +10,7 @@
 void print_number(int n)
 {
 	int i = n;
+
 	if (i < 0)
 	{
 		putchar('-');
@@ -28,8 +29,14 @@ void print_number(int n)
  */
 int main(void)
 {
-	int n = 999;
-	print_number(n);
+	print_number(555);
+	putchar('\n');
+	print_number(786);
+	putchar('\n');
+	print_number(952);
+	putchar('\n');
+	print_number(-87);
+	putchar('\n');
 
 	return (0);
 }
